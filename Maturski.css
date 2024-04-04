@@ -50,6 +50,14 @@ h3{
     margin-right: auto;
 }
 
+#Tošence{
+    height: 20%;
+    width: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 #MF{
     height: 25%;
     width: 25%;
@@ -179,5 +187,8 @@ ol{
 }
 
 #Muzika{
-    
+    display: block;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
 }
