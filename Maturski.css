@@ -3,6 +3,7 @@
     z-index: -1;
 }
 
+
 h1{
     text-align: center;
     font-family:Georgia, 'Times New Roman', Times, serif;
@@ -16,7 +17,7 @@ h1{
 p{
     margin:50px;
     padding:20px;
-    color: #1401b8;
+    color: rgb(2, 136, 245);
     text-indent: 100px;
     text-align: justify;
     font-size: 35px;
@@ -24,19 +25,34 @@ p{
     line-height: 1.5;
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
-/*
-/*rgb(129, 8, 243)
-*/
+
 #Tose{
     font-size: 50px;
     color: #0b0072;
-    text-shadow: 1px 1px 1px silver;
+    text-shadow: 1px 1px 1px whitesmoke;
     font-family:Georgia, 'Times New Roman', Times, serif;
     text-align: center;
+    text-indent: 0%;
 }
+
+#Uvod{
+    color: rgb(2, 136, 245);
+    text-align: center;
+    text-indent: 0%;
+}
+
+.Toše{
+    height: 100%;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
 h3{
     color: #1401b8;
+    text-shadow: 1px 1px 1px whitesmoke;
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-size: 50px;
     padding: 20px;
@@ -58,17 +74,18 @@ h3{
     margin-right: auto;
 }
 
-#MF{
-    height: 25%;
-    width: 25%;
+#MF,#Koncert, #Bend, #Z, #Sinalco, #Markica, #Odbojka, #Arena, #Tošence, #DM{
+    height: 35%;
+    width: 35%;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
+
 figcaption{
     text-align: center;
-    color: #1401b8;
+    color: rgb(2, 136, 245);
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
 }
@@ -94,15 +111,15 @@ figcaption{
 
 #AkoMePogledasUOci{
     float: right;
-    width: 30%;
-    margin-top: 100px;
+    width: 29%;
+    margin-top: 200px;
     margin-right: 20px;
 }
 
 #DanZaNas{
     float: right;
     width: 30%;
-    margin-top: 120px;
+    margin-top: 200px;
     margin-right: 20px;
 }
 
@@ -135,7 +152,7 @@ figcaption{
 }
 
 nav{
-    background-color:#080055;
+    color: rgb(2, 136, 245);
     height: 35px;
     padding:0px;
 }
@@ -162,16 +179,17 @@ nav li a{
 }      
 nav li:hover{
     background-color: blue;
+    color: blue;
 }
 .trenutna{
     background-color: blue;
-    color: blue;   
+    color: blue;
 }
 
 section{
     margin:50px;
     padding:20px;
-    color: #1401b8;
+    color: rgb(2, 136, 245);
     text-indent: 50px;
     font-size: 25px;
     margin-top:10px;
@@ -186,9 +204,30 @@ ol{
     list-style-type: decimal-leading-zero;
 }
 
-#Muzika{
+#Muzika, #Nagrada, #Manastir{
     display: block;
     width: 30%;
     margin-left: auto;
     margin-right: auto;
 }
+#Medvedici{
+    width: 30%;
+    height: 30%;
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#Zeka{
+    width: auto;
+    height: auto;
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#Centar{
+    text-align: center;
+    text-indent: 0px;
+}
+
